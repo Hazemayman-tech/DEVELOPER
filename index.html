@@ -768,6 +768,9 @@
         .service {
             margin-top: 49px;
         }
+        .gmail{
+            margin-right: 100px;
+        }
         
         
         /* RESPONSIVE */
@@ -806,7 +809,7 @@
             }
         }
         
-        @media (max-width: 768px) {
+        @media (max-width: 425px) {
             .hero h1 {
                 font-size: 3rem;
             }
@@ -824,7 +827,23 @@
                 left: 50%;
                 transform: translateX(-50%);
             }
+            
+            .social-links {
+                display: flex ;
+            
+                gap: 15px;
+                margin-top: 20px;
+                margin-left: 79px;
+            }
+            .footer-col {
+                margin-left: 74px;
+            }
+            .name {
+                margin-left: -70px;
+            }
+           
         }
+        
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -990,8 +1009,10 @@
                     <p>Whether you need a website, a web application, or a mobile app, I'm ready to help you create a solution that meets your business needs and exceeds your expectations.</p>
                     
                     <div class="contact-method">
-                        <i class="fas fa-envelope"></i>
-                        <div>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="gmail">
                             <h4>Email</h4>
                             <p>hazemaymanabdo382009@gmail.com</p>
                         </div>
@@ -1026,37 +1047,40 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
-                    <h3>Hazem Bug</h3>
-                    <p>Professional web development services for businesses of all sizes.</p>
-                    <div class="social-links">
-                        <a href="https://github.com/Hazemayman-tech"><i class="fab fa-github"></i></a>
-                        <a href="www.linkedin.com/in/hazem-ayman-i-541b66227"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/hazem.ayman.1422"><i class="fab fa-facebook"></i></a>
-                        <a href="https://t.me/HazemAymanabdo"><i class="fab fa-telegram"></i></a>
+                <div class="name">
+                    <div class="footer-col">
+                        <h3>Hazem Bug</h3>
+                        <p>Professional web development services for businesses of all sizes.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/Hazemayman-tech"><i class="fab fa-github"></i></a>
+                            <a href="www.linkedin.com/in/hazem-ayman-i-541b66227"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/hazem.ayman.1422"><i class="fab fa-facebook"></i></a>
+                            <a href="https://t.me/HazemAymanabdo"><i class="fab fa-telegram"></i></a>
+                        </div>
                     </div>
                 </div>
-                
-                <!-- <div class="footer-col">
-                    <h3>Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Mobile Apps</a></li>
-                        <li><a href="#">UI/UX Design</a></li>
-                        <li><a href="#">E-commerce Solutions</a></li>
-                    </ul>
-                </div> -->
-                
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+                <section id="foot">
+                    <div class="footer-col">
+                        <h3>Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">E-commerce Solutions</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </section>
             </div>
             
             <div class="copyright">
